@@ -42,7 +42,7 @@ resources:
     type: params
     version:
       params:
-        CLUSTER: "kube.tsafe.io" # replace with your cluster domain name
+        CLUSTER: "aws_k8s" # replace with your cluster domain name
         ENVIRONMENT: "TEST"
         PORT: 80
         MEMORY: 64
@@ -57,7 +57,7 @@ resources:
     type: params
     version:
       params:
-        CLUSTER: "kube.tsafe.io" # replace with your cluster domain name
+        CLUSTER: "aws_k8s" # replace with your cluster domain name
         ENVIRONMENT: "PROD"
         PORT: 80
         MEMORY: 128
