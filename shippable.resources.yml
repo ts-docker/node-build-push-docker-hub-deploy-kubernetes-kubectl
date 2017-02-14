@@ -42,7 +42,7 @@ resources:
     type: params
     version:
       params:
-        CLUSTER: "ec2-52-34-83-82.us-west-2.compute.amazonaws.com" # replace with your cluster domain name
+        CLUSTER: "us-west-2.compute.amazonaws.com" # replace with your cluster domain name
         ENVIRONMENT: "TEST"
         PORT: 80
         MEMORY: 64
@@ -57,7 +57,7 @@ resources:
     type: params
     version:
       params:
-        CLUSTER: "ec2-52-34-83-82.us-west-2.compute.amazonaws.com" # replace with your cluster domain name
+        CLUSTER: "us-west-2.compute.amazonaws.com" # replace with your cluster domain name
         ENVIRONMENT: "PROD"
         PORT: 80
         MEMORY: 128
